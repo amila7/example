@@ -18,10 +18,9 @@ class JobFactory extends Factory
     public function definition(): array
     {
         return [
-            'title'=> fake()->jobTitle(),
+            'title' =>fake()->jobTitle(),
+            'salary'=>'$50,000 USD',
             'employer_id'=> Employer::factory(),
-            'salary'=>'$50,000 USD'
-
         ];
     }
 }
