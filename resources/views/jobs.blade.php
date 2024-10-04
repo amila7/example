@@ -11,8 +11,11 @@
             </div>
         </a>
     @endforeach
-    <div>
+    {{-- <div>
         {{ $jobs->links()}}
-    </div>
+    </div> --}}
+</div>
+<div>
+    {{ $jobs->links()}}
 </div>
 </x-layout>
